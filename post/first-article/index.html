@@ -1,9 +1,9 @@
 <html>
   <head>
-  <meta charset="utf-8" />
+    <meta charset="utf-8" />
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>HveNotes | Kamk&#39; Blog</title>
+<title>First Article | Kamk&#39; Blog</title>
 <link rel="shortcut icon" href="https://Lkamukura.github.io/favicon.ico">
 <link rel="stylesheet" href="https://Lkamukura.github.io/styles/main.css">
 
@@ -54,43 +54,59 @@
   </div>
 </div>
 
-        <div class="current-tag-container">
-            <h2 class="title">
-                标签：#HveNotes
-            </h2> 
+      
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              First Article
+            </h2>
+            <div class="post-info">
+              <time class="post-time">
+                · 2019-04-11 ·
+              </time>
+              
+                <a href="https://Lkamukura.github.io/tag/dQ75YFDnF" class="post-tags">
+                  # kamk
+                </a>
+              
+            </div>
+            <div class="post-content">
+              <p><strong>Hello,seven...</strong><br><img src="https://Lkamukura.github.io/post-images/1554961275115.jpg" alt=""></p>
+
+            </div>
+          </article>
         </div>
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://Lkamukura.github.io/post/hello-hve-notes">
-        <h2 class="post-title">Hello Hve Notes</h2>
-      </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2018-12-12 ·
-        </time>
+    
         
-          <a href="https://Lkamukura.github.io/tag/hvenotes" class="post-tag">
-            # HveNotes
-          </a>
-        
-      </div>
-      
-        <a href="https://Lkamukura.github.io/post/hello-hve-notes" class="post-feature-image" style="background-image: url('https://Lkamukura.github.io/post-images/hello-hve-notes.png')">
-        </a>
-      
-      <div class="post-abstract">
-        
-      </di>
-    </article>
-  
-</div>
 
-        <div class="pagination-container">
-  
-  
-</div>
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '79a04cba28ec30040fa6',
+    clientSecret: '3da1390b079b9d0a8f7e93bcf92ed9ceb4758852',
+    repo: 'Lkamukura.github.io',
+    owner: 'Lkamukura',
+    admin: ['Lkamukura'],
+    id: location.pathname,      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
+    
         <div class="site-footer">
   Powered by Hve Notes
 </div>
